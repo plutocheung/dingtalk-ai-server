@@ -1,5 +1,7 @@
 # DingTalk AI Server
 
+[![smithery badge](https://smithery.ai/badge/@plutocheung/dingtalk-ai-server)](https://smithery.ai/server/@plutocheung/dingtalk-ai-server)
+
 A Node.js implementation of the Model Context Protocol (MCP) for DingTalk AI services.
 
 ## Features
@@ -12,6 +14,15 @@ A Node.js implementation of the Model Context Protocol (MCP) for DingTalk AI ser
 
 ## Installation
 
+### Installing via Smithery
+
+To install dingtalk-ai-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@plutocheung/dingtalk-ai-server):
+
+```bash
+npx -y @smithery/cli install @plutocheung/dingtalk-ai-server --client claude
+```
+
+### Manual Installation
 ```bash
 # Clone the repository
 git clone https://github.com/plutocheung/dingtalk-ai-server.git
